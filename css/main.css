@@ -1,0 +1,207 @@
+@charset "utf-8";
+/* CSS Document */
+.button{
+	display: flex;
+}
+
+.button img{
+	background-size: contain/cover;
+	width: 100px;
+	height: auto;
+	flex: 1;
+}
+
+.header{
+	width: 1170px;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 400px;
+}
+
+.logo{
+	width: 220px;
+	float: left;
+}
+
+.logo img{
+	width: 220px;
+}
+
+.nav{
+	width: 502px;
+	margin: auto;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.nav-list li{
+	display: inline-block;
+	margin: 30px 20px;
+}
+
+.nav-list li a:hover{
+	color: #fff;
+	border-radius: 50px;
+	background-color: #692A1B;
+}
+
+.nav-list li .sy{
+	color: #fff;
+	border-radius: 50px;
+	background-color: #692A1B;
+}
+
+.nav-list a{
+	padding: 8px 25px;
+}
+
+.bg img{
+	width: 100%;
+	margin-top: 50px;
+}
+
+.title{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.title img{
+	width: 200px;
+}
+
+.main{
+	width: 1170px;
+	margin: 220px auto;
+	position: relative;
+}
+
+.jianjie{
+	width: 140px;
+	height: 50px;
+	border-radius: 50px;
+	margin: auto;
+	text-align: center;
+	line-height: 50px;
+	background-color: #692A1B;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: -20px;
+}
+
+.jianjie h4{
+	font-size: 24px;
+	color: #FFF;
+}
+
+.section{
+	width: 1170px;
+	border: 3px solid #692A1B;
+}
+
+.section-line{
+	width: 1150px;
+	margin: 5px;
+	border: 6px solid #692A1B;
+}
+
+.duanluo{
+	margin: 0 auto;
+	position: relative;
+}
+
+.diyiduan{
+	text-indent:2em;
+	padding: 40px 40px 0 40px;
+	line-height: 2em;
+}
+
+.dierduan{
+	text-indent:2em;
+	padding: 0 40px 0 40px;
+	line-height: 2em;
+}
+
+.disanduan{
+	text-indent:2em;
+	padding: 0 40px 40px 40px;
+	line-height: 2em;
+}
+
+
+.spot{
+	width: 16px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+.spot img{
+	width: 16px;
+}
+
+.gengduo{
+	width: 120px;
+	margin: 0 auto;
+	margin-top: 15px;
+	position: relative;
+}
+
+.gengduo .gd{
+	position: absolute;
+	left: 28px;
+	top: 10px;
+	color: #FFFFFF;
+}
+
+.gengduo img{
+	width: 120px;
+}
+
+.gengduo:hover{
+	transform: scale(1.2);
+	transition: all 0.2s ease;
+}
+
+.zhuangshi{
+	height: 90px;
+	margin: 40px 0;
+}
+
+.left{
+	float: left;
+	width: 300px;
+}
+
+.right{
+	float: right;
+	width: 300px;
+}
+
+.footer{
+	margin-top: 40px;
+	height: 300px;
+	background-color: #692A1B;
+}
+
+.tou{
+	width: 500px;
+	margin: auto;
+	padding: 60px;
+}
+
+.tou a{
+	color: #fff;
+}
+
+.tou span{
+	padding: 0 40px;
+	color: #fff;
+}
+
+.tou p{
+	color: #fff;
+	margin: 15px 0;
+}

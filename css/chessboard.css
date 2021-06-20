@@ -1,0 +1,231 @@
+@charset "utf-8";
+/* CSS Document */
+.button{
+	display: flex;
+}
+
+.button img{
+	background-size: contain/cover;
+	width: 100px;
+	height: auto;
+	flex: 1;
+}
+.header{
+	width: 1170px;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 400px;
+}
+
+.logo{
+	width: 220px;
+	float: left;
+}
+
+.logo img{
+	width: 220px;
+}
+
+.nav{
+	width: 502px;
+	margin: auto;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.nav-list li{
+	display: inline-block;
+	margin: 30px 20px;
+}
+
+.nav-list li a:hover{
+	color: #fff;
+	border-radius: 50px;
+	background-color: #692A1B;
+}
+
+.nav-list li .qp{
+	color: #fff;
+	border-radius: 50px;
+	background-color: #692A1B;
+}
+
+.nav-list a{
+	padding: 8px 25px;
+}
+
+.main{
+	width: 1170px;
+	margin: 220px auto;
+}
+
+.title{
+	width: 590px;
+	margin: auto;
+	position: relative;
+}
+
+.zuo{
+	position: absolute;
+	top: 50px;
+	left: 5px;
+}
+
+.you{
+	position: absolute;
+	top: -15px;
+	right: 55px;
+}
+
+.jieshao{
+	margin: auto;
+}
+
+.jieshao h1{
+	font-size: 48px;
+	color: #692A1B;
+	letter-spacing: 0.2em;
+	text-align: center;
+}
+
+.jieshao p{
+	font-size: 12px;
+	color: #692A1B;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.chuanshuo{
+	margin-top: 120px;
+}
+
+.chuanshuo,.baifang{
+	width: 1170px;
+	height: 400px;	
+}
+
+.title-1{
+	width: 130px;
+	height: 400px;
+	float: left;
+	position: relative;
+}
+
+.qipancs{
+	font-size: 36px;
+	position: absolute;
+	writing-mode: vertical-rl;
+	left: 42px;
+	top: 74px;
+	color: #fff;
+	letter-spacing: 1em;
+}
+
+.qizibf{
+	font-size: 36px;
+	position: absolute;
+	writing-mode: vertical-rl;
+	left: 36px;
+	top: 74px;
+	color: #fff;
+	letter-spacing: 1em;
+}
+
+.neiron-1{
+	float: left;
+	margin: 36px 20px 0 20px;
+}
+
+.neiron-1 p{
+	line-height: 24px;
+	writing-mode: vertical-rl;
+	writing-mode:tb-rl;
+	float: left;
+}
+
+.qipantu-1{
+	width: 730px;
+	float: right;
+	border: 3px solid #692A1B;
+	position: relative;
+}
+
+.qipantu-1 img,.qipantu-2 img{
+	padding: 15px;
+}
+
+.zs-1{
+	position: absolute;
+	right: -380px;
+	top: 180px;
+}
+
+.baifang{
+	margin-top: 200px;
+}
+
+.title-2{
+	width: 130px;
+	float: right;
+	position: relative;
+}
+
+.baifang img{
+	float: right;
+}
+
+.neiron-2{
+	float: right;
+	margin: 36px 20px 0 20px;
+}
+
+.neiron-2 p{
+	line-height: 24px;
+	writing-mode: vertical-rl;
+	writing-mode:tb-rl;
+	float: right;
+	letter-spacing: 0.2em;
+}
+
+.qipantu-2{
+	width: 730px;
+	height: 400px;
+	float: left;
+	border: 3px solid #692A1B;
+	position: relative;
+}
+
+.zs-2{
+	position: absolute;
+	left: -380px;
+	top: 180px;
+}
+
+
+.footer{
+	height: 300px;
+	background-color: #692A1B;
+}
+
+.tou{
+	width: 500px;
+	margin: auto;
+	padding: 60px;
+}
+
+.tou a{
+	color: #fff;
+}
+
+.tou span{
+	padding: 0 40px;
+	color: #fff;
+}
+
+.tou p{
+	color: #fff;
+	margin: 15px 0;
+}

@@ -1,0 +1,54 @@
+@charset "utf-8";
+html {background:white;}
+/* 清除内外边距 */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+fieldset, lengend, button, input, textarea, /* form elements 表单元素 */
+th, td { /* table elements 表格元素 */
+    margin: 0;
+    padding: 0;
+}
+address, cite, dfn, em, var,i { font-style: normal; } /* 将斜体扶正 */
+/* 要注意表单元素并不继承父级 font 的问题 */
+body,button,input,select,textarea {
+    font-family: arial, "Hiragino Sans GB", "Microsoft Yahei", 微软雅黑, 宋体, Tahoma, Arial, Helvetica, STHeiti;
+    color: #282828;
+}
+a { text-decoration: none; color:#333;}
+a:hover { text-decoration: underline; }
+/*// 设置使所有a标签的四种状态都和本身颜色保持一致*/
+table { 
+border-collapse:collapse; 
+border-spacing:0; 
+} 
+fieldset,img { 
+border:0; 
+} 
+address,caption,cite,code,dfn,em,strong,th,var { 
+font-style:normal; 
+font-weight:normal; 
+} 
+ol,ul { 
+list-style:none; 
+} 
+caption,th { 
+text-align:left; 
+} 
+h1,h2,h3,h4,h5,h6 { 
+font-size:100%; 
+font-weight:normal; 
+} 
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+.nav-list li a:hover{
+	transition: all 0.2s ease;
+}
+.clearfix:after {content:"."; display:block; height:0; visibility:hidden; clear:both; }
+.clearfix { *zoom:1; }

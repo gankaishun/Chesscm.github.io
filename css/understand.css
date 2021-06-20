@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+.header{
+	width: 1170px;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 400px;
+}
+
+.logo{
+	width: 220px;
+	float: left;
+}
+
+.logo img{
+	width: 220px;
+}
+
+.nav{
+	width: 502px;
+	margin: auto;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.nav-list li{
+	display: inline-block;
+	margin: 30px 20px;
+}
+
+.nav-list li a:hover{
+	color: #fff;
+	border-radius: 50px;
+	background-color: #692A1B;
+}
+
+.nav-list li .sy{
+	color: #fff;
+	border-radius: 50px;
+	background-color: #692A1B;
+}
+
+.nav-list a{
+	padding: 8px 25px;
+}
+
+.main{
+	width: 1322px;
+	margin: 120px auto;
+	position: relative;
+	margin-bottom: 180px;
+}
+
+
+
+.gengduo{
+	width: 1322px;
+	margin: 0 auto;
+	margin: 40px 0;
+}
+
+.lishi{
+	width: 240px;
+	margin: auto;
+	margin-top: 200px;
+	position: relative;
+}
+
+.gengduo p{
+	font-size: 36px;
+	position: absolute;
+	left: 46px;
+	top: 16px;
+	color: #FFFFFF;
+}
+
+.gengduo img{
+	width: 240px;
+}
+

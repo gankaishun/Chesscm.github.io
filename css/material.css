@@ -1,0 +1,309 @@
+@charset "utf-8";
+/* CSS Document */
+.button{
+	display: flex;
+}
+
+.button img{
+	background-size: contain/cover;
+	width: 100px;
+	height: auto;
+	flex: 1;
+}
+.header{
+	width: 1170px;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 400px;
+}
+
+.logo{
+	width: 220px;
+	float: left;
+}
+
+.logo img{
+	width: 220px;
+}
+
+.nav{
+	width: 502px;
+	margin: auto;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.nav-list li{
+	display: inline-block;
+	margin: 30px 20px;
+}
+
+.nav-list li a:hover{
+	color: #fff;
+	border-radius: 50px;
+	background-color: #692A1B;
+}
+
+.nav-list li .cz{
+	color: #fff;
+	border-radius: 50px;
+	background-color: #692A1B;
+}
+
+.nav-list a{
+	padding: 8px 25px;
+}
+
+.main{
+	width: 1170px;
+	margin: 160px auto;
+}
+
+.title{
+	width: 590px;
+	margin: auto;
+	position: relative;
+}
+
+.zuo{
+	position: absolute;
+	top: 50px;
+	left: 5px;
+}
+
+.you{
+	position: absolute;
+	top: -15px;
+	right: 55px;
+}
+
+.jieshao{
+	margin: auto;
+}
+
+.jieshao h1{
+	font-size: 48px;
+	color: #692A1B;
+	letter-spacing: 0.2em;
+	text-align: center;
+}
+
+.jieshao p{
+	font-size: 12px;
+	color: #692A1B;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.muzhixq{
+	margin-top: 120px;
+}
+
+
+.muzhixq,.yuzhixq{
+	width: 1170px;
+	height: 450px;
+	border-bottom: 1px solid #692A1B;
+}
+
+.muzhi,.boli,.yuzhi{
+	width: 850px;
+	margin: auto;
+}
+
+.muzhitu,.bolitu{
+	float: left;
+	position: relative;
+}
+
+.quan{
+	width: 400px;
+}
+
+.muzhitu a img,.bolitu a img{
+	width: 300px;
+	position: absolute;
+	left: 48px;
+	top: 50px;
+}
+
+.muzhi-right,.boli-right{
+	float: right;
+	margin-top: 82px;
+}
+
+.wooden,.title-1{
+	float: right;
+}
+
+.wooden p{
+	font-size: 12px;
+	color: #692A1B;
+	writing-mode: vertical-rl;
+	writing-mode:tb-rl;
+	margin-top: 66px;
+}
+
+.title-1 a{
+	font-size: 36px;
+	color: #692A1B;
+	writing-mode: vertical-rl;
+	writing-mode:tb-rl;
+	letter-spacing: 0.2em;
+}
+
+.title-1 p{
+	writing-mode: vertical-rl;
+	writing-mode:tb-rl;
+	letter-spacing: 0.2em;
+}
+
+.xian{
+	margin: 0 10px 0 50px;
+	width: 0;
+	height: 160px;
+	float: right;
+	border: 1px solid #692A1B;
+}
+
+.neiron-1{
+	line-height: 24px;
+	writing-mode: vertical-rl;
+	writing-mode:tb-rl;
+	float: right;
+	letter-spacing: 0.2em;
+}
+
+.neiron-1 p{
+	line-height: 38px;
+	letter-spacing: 0.2em;
+}
+
+.yuzhitu{
+	float: right;
+	position: relative;
+}
+
+.quan{
+	width: 400px;
+}
+
+.yuzhitu a img{
+	width: 300px;
+	position: absolute;
+	left: 48px;
+	top: 50px;
+}
+
+.yuzhi-right{
+	float: left;
+	margin-top: 82px;
+}
+
+.jade,.title-2{
+	float: left;
+}
+
+.jade p{
+	font-size: 12px;
+	color: #692A1B;
+	writing-mode: vertical-rl;
+	writing-mode:tb-rl;
+	margin-top: 92px;
+}
+
+.crystal p{
+	font-size: 12px;
+	color: #692A1B;
+	writing-mode: vertical-rl;
+	writing-mode:tb-rl;
+	margin-top: 66px;
+}
+
+.title-2 a{
+	font-size: 36px;
+	color: #692A1B;
+	writing-mode: vertical-rl;
+	writing-mode:tb-rl;
+	letter-spacing: 0.2em;
+}
+
+.title-2 p{
+	writing-mode: vertical-rl;
+	writing-mode:tb-rl;
+	letter-spacing: 0.2em;
+}
+
+.xian-2{
+	margin: 0 50px 0 10px;
+	width: 0;
+	height: 160px;
+	float: left;
+	border: 1px solid #692A1B;
+}
+
+.neiron-2{
+	line-height: 24px;
+	writing-mode: vertical-rl;
+	writing-mode:tb-rl;
+	float: left;
+	letter-spacing: 0.2em;
+}
+
+.neiron-2 p{
+	line-height: 38px;
+	letter-spacing: 0.2em;
+}
+
+.bolixq,.yuzhixq{
+	margin-top: 60px;
+	width: 1170px;
+	height: 450px;
+}
+
+.crystal{
+	float: right;
+}
+
+.muzhitu a img:hover{
+	transform: scale(1.2);
+	transition: all 0.4s ease;
+}
+
+.yuzhitu a img:hover{
+	transform: scale(1.2);
+	transition: all 0.4s ease;
+}
+
+.bolitu a img:hover{
+	transform: scale(1.2);
+	transition: all 0.4s ease;
+}
+
+.footer{
+	height: 300px;
+	background-color: #692A1B;
+}
+
+.tou{
+	width: 500px;
+	margin: auto;
+	padding: 60px;
+}
+
+.tou a{
+	color: #fff;
+}
+
+.tou span{
+	padding: 0 40px;
+	color: #fff;
+}
+
+.tou p{
+	color: #fff;
+	margin: 15px 0;
+}

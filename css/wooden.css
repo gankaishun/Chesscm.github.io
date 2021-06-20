@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+
+.header{
+	height: 60px;
+	width: 1170px;
+	margin: auto;
+}
+
+.logo{
+	width: 220px;
+	float: left;
+}
+
+.logo img{
+	width: 220px;
+}
+
+.nav{
+	width: 502px;
+	margin: auto;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.nav-list li{
+	display: inline-block;
+	margin: 30px 20px;
+}
+
+.nav-list li a:hover{
+	color: #fff;
+	border-radius: 50px;
+	background-color: #692A1B;
+}
+
+.nav-list li .cz{
+	color: #fff;
+	border-radius: 50px;
+	background-color: #692A1B;
+}
+
+.nav-list a{
+	padding: 8px 25px;
+}
+
+.main{
+	width: 1170px;
+	margin: 220px auto;
+}
+
+.title{
+	height: 80px;
+	width: 590px;
+	margin: auto;
+	position: relative;
+}
+
+.zuo{
+	position: absolute;
+	top: 15px;
+	left: 25px;
+}
+
+.you{
+	position: absolute;
+	top: 15px;
+	right: 25px;
+}
+
+.jieshao{
+	margin: auto;
+}
+
+.jieshao h1{
+	font-size: 48px;
+	color: #692A1B;
+	letter-spacing: 0.2em;
+	text-align: center;
+}
+
+.jieshao p{
+	font-size: 12px;
+	color: #692A1B;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.neiron{
+	width: 1170px;
+	margin-top: 120px;
+}
+
+.lvtan-nr{
+	float: right;
+	position: relative;
+}
+
+.lvtan-nr h2,.zitan-nr h2{
+	font-size: 28px;
+	color: #fff;
+	position: absolute;
+	top: 18px;
+	left: 50px;
+}
+
+.nanmu-nr h2,.hongmu-nr h2{
+	font-size: 28px;
+	color: #fff;
+	position: absolute;
+	top: 18px;
+	left: 36px;
+}
+
+.lvtan-nr .lvtan,.nanmu-nr .nanmu,.zitan-nr .zitan,.hongmu-nr .hongmu{
+	width: 450px;
+	line-height: 24px;
+	margin-top: 30px;
+	text-indent: 2em;
+}
+
+.pm p{
+	line-height: 36px;
+	color: #692A1B;
+}
+
+.mu-2,.mu-3,.mu-4{
+	height: 320px;
+	margin-top: 120px;
+}
+
+.nanmu-nr,.hongmu-nr{
+	float: left;
+	position: relative;
+}
+
+.nanmutu,.hongmutu{
+	float: right;
+}
+
+.zitan-nr{
+	float: right;
+	position: relative;
+}
+
+.zitantu{
+	float: left;
+}
+
+.lvtan-nr .pm,.nanmu-nr .pm,.zitan-nr .pm,.hongmu-nr .pm{
+	margin-top: 16px;
+}
+
+.zitan-nr .pm{
+	margin-top: 40px;
+}
+
+
+
+
